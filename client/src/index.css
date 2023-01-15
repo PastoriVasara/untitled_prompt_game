@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Modak';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: 'Bowlby One SC'
+  }
+  
+  
+  :root {
+    --playersCardWidth: min(350px, 50vw);
+  }
+  
+  @media (max-width: 1000px) {
+    :root {
+      --playersCardWidth: 100%;
+    }
+  }
